@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - Cookytime</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="logo">Cookytime</h1>
+            <nav>
+                <ul class="flex-nav">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="gallery.html" class="active">Галерея</a></li>
+                    <li><a href="recipes/recipe1.html">Рецепты</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="gallery-container">
+        <h2 class="gallery-title">Фотогалерея</h2>
+        <p class="subtitle">Коллекция вкусных блюд</p>
+
+        <div class="gallery-grid" id="image-gallery">
+            <!-- Карточка 1 -->
+            <article class="image-card" data-category="garnish">
+                <div class="card-image">
+                    <img src="images/болоньезе.jpg" alt="Болоньезе" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Болоньезе</h3>
+                    <p class="image-date">5 мая 2026</p>
+                    <p class="image-description">Это название традиционного итальянского соуса, который готовится на основе томатов и мясного фарша. Один из вариантов подачи – аппетитная паста Болоньезе.</p>
+                </div>
+            </article>
+
+            <!-- Карточка 2 -->
+            <article class="image-card" data-category="garnish">
+                <div class="card-image">
+                    <img src="images/фуагра.jpg" alt="Фуа-Гра" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Фуа-гра</h3>
+                    <p class="image-date">5 мая 2026</p>
+                    <p class="image-description">Фуа-гра – приготовленная по французским кулинарным традициям гусиная печень. Вариаций на эту тем много, предлагаем изысканную. </p>
+                </div>
+            </article>
+
+            <!-- Карточка 3 -->
+            <article class="image-card" data-category="salads">
+                <div class="card-image">
+                    <img src="images/гуляш.jpg" alt="блюдо" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Гуляш</h3>
+                    <p class="image-date">20 марта 2026</p>
+                    <p class="image-description">Вкусная и сытная еда европейской кухни – это венгерский суп Гуляш.</p>
+                </div>
+            </article>
+
+            <!-- Карточка 4 -->
+            <article class="image-card" data-category="salads">
+                <div class="card-image">
+                    <img src="images/карбонара.jpg" alt="блюдо" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Карбонара</h3>
+<p class="image-date">20 марта 2026</p>
+                    <p class="image-description">Паста – национальное блюдо Италии, которое подаётся здесь в разнообразных вариациях. Его принято приготавливать и предлагать с аппетитными соусами.</p>
+                </div>
+            </article>
+
+            <!-- Карточка 5 -->
+            <article class="image-card" data-category="drinks">
+                <div class="card-image">
+                    <img src="images/карпачо.jpg" alt="блюдо" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Карпаччо</h3>
+                    <p class="image-date">20 марта 2026</p>
+                    <p class="image-description">Изысканная классика итальянской кухни. Тончайшие, почти прозрачные ломтики сыромятной мраморной говядины, замаринованные в лимонном соке.</p>
+                </div>
+            </article>
+
+            <!--Карточка 6-->
+            <article class="image-card" data-category="drinks">
+                <div class="card-image">
+                    <img src="images/колканон.jpg" alt="блюдо" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Колканнон</h3>
+                    <p class="image-date">20 марта 2026</p>
+                    <p class="image-description">Хорошо утоляет голод это блюдо, которое относится к ирландской традиционной кухне и делается на основе картофеля с капустой.</p>
+                </div>
+            </article>
+
+            <!--Карточка 7-->
+            <article class="image-card" data-category="drinks">
+                <div class="card-image">
+                    <img src="images/кучерикас.jpg" alt="блюдо" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Кучерикас</h3>
+                    <p class="image-date">20 марта 2026</p>
+                    <p class="image-description">Это греческая закуска из баклажанов, творога и сыра.</p>
+                </div>
+            </article>
+
+            <!--Карточка 8-->
+            <article class="image-card" data-category="drinks">
+                <div class="card-image">
+                    <img src="images/минестроне.jpg" alt="блюдо" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Минестроне</h3>
+                    <p class="image-date">20 марта 2024</p>
+                    <p class="image-description">Хороший итальянский суп</p>
+                </div>
+            </article>
+            <!--Карточка 9-->
+            <article class="image-card" data-category="drinks">
+                <div class="card-image">
+                    <img src="images/паэлья.jpg" alt="микс риса и морепродуктов" loading="lazy">
+                    <div class="image-overlay">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="image-title">Паэлья</h3>
+                    <p class="image-date">20 марта 2026</p>
+                    <p class="image-description">Это потрясающий испанский микс риса, морепродуктов или мясных компонентов и овощей.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Ганиева Мелина, студент 1 курса, 2026</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Cookytime</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="logo">Cookytime</h1>
+            <nav>
+                <ul class="flex-nav">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="recipes/recipe1.html">Рецепты</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contacts-page">
+        <section class="hero-contacts">
+            <h1>Свяжитесь со мной</h1>
+            <p>Буду рада ответить на ваши вопросы</p>
+        </section>
+
+        <div class="contacts-container">
+            <!-- Информационная карточка -->
+            <div class="info-card">
+                <h2>Ганиева Мелина</h2>
+                <p><strong>Разработчик веб-сайтов</strong></p>
+                <p class="specialization">Специализация: туда сюда айтишник</p>
+                
+                <div class="contact-info">
+                    <p><strong>Email:</strong> <a href="#">melina.ganieva46@mail.ru</a></p>
+                    <p><strong>Телефон:</strong> +7 995 299 17-76</p>
+                    <p><strong>Город:</strong> Москва, Россия</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-btn" aria-label="Telegram">TG</a>
+                    <a href="#" class="social-btn" aria-label="VK">VK</a>
+                    <a href="#" class="social-btn" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+
+            <!-- Форма обратной связи -->
+            <div class="contact-form">
+                <h2>Напишите мне</h2>
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Имя <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема сообщения</label>
+                        <select id="subject" name="subject">
+                            <option value="">Выберите тему...</option>
+                            <option value="question">Вопрос по проекту</option>
+                            <option value="collaboration">Сотрудничество</option>
+                            <option value="feedback">Отзыв</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="agreement" name="agreement" required>
+                        <label for="agreement">Соглашаюсь на обработку персональных данных</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Ганиева Мелина, студент 1 курса, 2026</p>
+</div>
+    </footer>
+</body>
+</html>
